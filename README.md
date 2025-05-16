@@ -6,55 +6,25 @@ A modern, interactive flashcard app for learning JavaScript, HTML5, and CSS3. Fe
 
 ## Table of Contents
 
-- [Key Features](#key-features)
-- [Color Palettes](#color-palettes)
 - [Demo](#demo)
 - [Deployed App](#deployed-app)
 - [File Structure](#file-structure)
+- [Accessibility and SEO](#accessibility-and-seo)
+- [Performance and Best Practices](#performance-and-best-practices)
+- [Key Features](#key-features)
+- [JavaScript Methodologies Used](#javascript-methodologies-used)
+- [Color Palettes](#color-palettes)
 - [Getting Started](#getting-started)
 - [User Instructions](#user-instructions)
 - [Customization](#customization)
-- [JavaScript Methodologies Used](#javascript-methodologies-used)
-- [Toggle Feature (Dark Mode / Light Mode)](#toggle-feature-dark-mode--light-mode)
-- [Contributing](#contributing)
 - [License](#license)
-
----
-
-## Key Features
-
-- Multiple-choice flashcards for JavaScript, HTML5, and CSS3
-- Add, edit, and delete flashcards
-- Category filtering and card shuffling
-- Score tracking with reset option
-- **Countdown timer with set/reset and time-up alert**
-- Responsive and modern UI (container is always 80% of viewport width)
-- Data persistence with localStorage
-- **Dark Mode / Light Mode toggle for comfortable viewing**
-- **Modern, accessible color palettes for both light and dark themes**
-- Accessible and mobile-friendly design
-
----
-
-## Color Palettes
-
-- **Light Mode:**  
-  - Background: Soft white (`#fff`), accent backgrounds (`#b4ece0`, `#f0f4ff`)
-  - Text: Dark gray/black (`#232323`)
-  - Buttons/inputs: Subtle grays and accent colors
-
-- **Dark Mode:**  
-  - Background: Deep gray (`#232323`), accent backgrounds (`#2d2d3a`)
-  - Text: Light gray/white (`#f1f1f1`)
-  - Buttons/inputs: Muted darks with clear contrast
-
-All color choices are designed for readability and comfort, day or night.
+- [Contact](#contact)
 
 ---
 
 ## Demo
 
-![Flashcard Quizzes Demo](./demo.gif)
+![Flashcard Quizzes Demo](imgs/LiveDemo.gif)
 
 ---
 
@@ -75,6 +45,128 @@ flashcard-quizzes/
 ├── [favicon.ico](http://_vscodecontentref_/3)        # App icon 
 └── [README.md](http://_vscodecontentref_/4)
 ```
+
+---
+
+## Accessibility and SEO
+
+Flashcard Quizzes is built with accessibility and SEO best practices in mind:
+
+- **Semantic HTML:**  
+  Proper use of HTML5 semantic elements (`<header>`, `<nav>`, `<main>`, `<footer>`, etc.) to structure the content meaningfully.
+
+- **ARIA Roles and Attributes:**  
+  Appropriate ARIA roles and attributes are used to enhance accessibility for assistive technologies (e.g., `aria-live` for announcements, `role="button"` for clickable elements).
+
+- **Keyboard Navigation:**  
+  The app is fully navigable using a keyboard, with logical tab order and focus management.
+
+- **Color Contrast:**  
+  Text and interactive elements have sufficient color contrast ratios to ensure readability for users with visual impairments.
+
+- **Alt Text for Images:**  
+  Descriptive alt text is provided for all meaningful images and icons.
+
+- **Responsive Design:**  
+  The layout adapts gracefully to different screen sizes and orientations, ensuring usability on mobile devices.
+
+- **SEO-Friendly Structure:**  
+  The HTML is structured to be crawlable and indexable by search engines, with proper use of headings, links, and metadata.
+
+**Accessibility and SEO Test Results for Mobile and Desktop:**  
+![Accessibility and SEO for Mobile](imgs/accessibilitySeoScore_mb.PNG)  
+![Accessibility and SEO for Desktop](imgs/accessibilitySeoScore_desk.PNG)
+
+---
+
+## Performance and Best Practices
+
+To ensure fast load times and a smooth user experience, Flashcard Quizzes follows these performance and best practices:
+
+- **Optimized Assets:**  
+  Images and other assets are optimized for the web to reduce file size and improve loading speed.
+
+- **Minified CSS and JavaScript:**  
+  CSS and JavaScript files are minified to decrease their size and reduce the number of HTTP requests.
+
+- **Browser Caching:**  
+  Leveraging browser caching for static assets to improve repeat visit loading times.
+
+- **Responsive Images:**  
+  Using responsive image techniques (e.g., `srcset`) to serve appropriately sized images for different devices.
+
+- **Accessibility Best Practices:**  
+  Following WCAG 2.1 guidelines to ensure the app is accessible to users with disabilities.
+
+- **SEO Best Practices:**  
+  Implementing on-page SEO best practices, including meta tags, title tags, and structured data markup.
+
+**Performance and Best Practices Test Results:**  
+![Performance Example](imgs/performBestPracScore.PNG)
+
+---
+
+## Key Features
+
+- Multiple-choice flashcards for JavaScript, HTML5, and CSS3
+- Add, edit, and delete flashcards
+- Category filtering and card shuffling
+- Score tracking with reset option
+- **Countdown timer with set/reset and time-up alert**
+- Responsive and modern UI (container is always 80% of viewport width)
+- Data persistence with localStorage
+- **Dark Mode / Light Mode toggle for comfortable viewing**
+- **Modern, accessible color palettes for both light and dark themes**
+- Accessible and mobile-friendly design
+
+---
+
+## JavaScript Methodologies Used
+
+Flashcard Quizzes leverages modern JavaScript methodologies and best practices to ensure a robust, maintainable, and interactive user experience:
+
+- **Modular Code Structure:**  
+  Functions are organized by responsibility (rendering, event handling, data management) for clarity and maintainability.
+
+- **DOM Manipulation:**  
+  The app dynamically updates the DOM to display questions, choices, scores, and feedback using methods like `document.getElementById`, `createElement`, and event listeners.
+
+- **Event-Driven Programming:**  
+  User interactions (button clicks, form submissions, category changes) are handled using event listeners to provide real-time feedback and interactivity.
+
+- **State Management:**  
+  The app maintains state variables (such as current question, score, filtered cards, selected category, and timer) to track user progress and update the UI accordingly.
+
+- **Local Storage:**  
+  User data (flashcards and score) is persisted using `localStorage`, allowing users to retain their progress and custom cards across sessions.
+
+- **Array Methods:**  
+  Modern array methods like `.filter()`, `.map()`, `.forEach()`, and `.sort()` are used for efficient data manipulation (e.g., filtering by category, shuffling cards, generating choices).
+
+- **Form Handling and Validation:**  
+  Input forms for adding and editing flashcards include validation to ensure data integrity before updating the flashcard set.
+
+- **Responsive Feedback:**  
+  The UI provides immediate feedback for correct/incorrect answers, quiz completion, and score updates.
+
+- **Progressive Enhancement:**  
+  The app is designed to work seamlessly on all modern browsers and devices, with graceful fallbacks for unsupported features.
+
+---
+
+## Color Palettes
+
+- **Light Mode:**  
+  - Background: Soft white (`#fff`), accent backgrounds (`#b4ece0`, `#f0f4ff`)
+  - Text: Dark gray/black (`#232323`)
+  - Buttons/inputs: Subtle grays and accent colors
+
+- **Dark Mode:**  
+  - Background: Deep gray (`#232323`), accent backgrounds (`#2d2d3a`)
+  - Text: Light gray/white (`#f1f1f1`)
+  - Buttons/inputs: Muted darks with clear contrast
+
+All color choices are designed for readability and comfort, day or night.
 
 ---
 
@@ -117,63 +209,19 @@ _No build steps or dependencies required._
 
 ---
 
-## JavaScript Methodologies Used
-
-Flashcard Quizzes leverages modern JavaScript methodologies and best practices to ensure a robust, maintainable, and interactive user experience:
-
-- **Modular Code Structure:**  
-  Functions are organized by responsibility (rendering, event handling, data management) for clarity and maintainability.
-
-- **DOM Manipulation:**  
-  The app dynamically updates the DOM to display questions, choices, scores, and feedback using methods like `document.getElementById`, `createElement`, and event listeners.
-
-- **Event-Driven Programming:**  
-  User interactions (button clicks, form submissions, category changes) are handled using event listeners to provide real-time feedback and interactivity.
-
-- **State Management:**  
-  The app maintains state variables (such as current question, score, filtered cards, selected category, and timer) to track user progress and update the UI accordingly.
-
-- **Local Storage:**  
-  User data (flashcards and score) is persisted using `localStorage`, allowing users to retain their progress and custom cards across sessions.
-
-- **Array Methods:**  
-  Modern array methods like `.filter()`, `.map()`, `.forEach()`, and `.sort()` are used for efficient data manipulation (e.g., filtering by category, shuffling cards, generating choices).
-
-- **Form Handling and Validation:**  
-  Input forms for adding and editing flashcards include validation to ensure data integrity before updating the flashcard set.
-
-- **Responsive Feedback:**  
-  The UI provides immediate feedback for correct/incorrect answers, quiz completion, and score updates.
-
-- **Progressive Enhancement:**  
-  The app is designed to work seamlessly on all modern browsers and devices, with graceful fallbacks for unsupported features.
-
----
-
-## Toggle Feature (Dark Mode / Light Mode)
-
-Flashcard Quizzes includes a convenient Dark Mode/Light Mode toggle. Users can switch between dark and light themes at any time using the toggle button at the top of the app. The app remembers your preference for future visits, providing a comfortable experience whether you're studying during the day or at night.
-
----
-
-### Demo of Toggle Feature
-
-You can see the Dark Mode/Light Mode toggle in action below:
-
-![Dark Mode Toggle Demo](togglebtn.gif)
-
----
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
-
----
-
 ## License
 
-MIT License
+This project is licensed under the MIT License.
 
 ---
 
-Customise it your way and enjoy learning with **Flashcard Quizzes**!
+## Contact
+
+For questions, suggestions, or feedback, please contact:  
+**Sandhya H**  
+Email: [sandhyaharsh@gmail.com](mailto:sandhyaharsh@gmail.com)  
+GitHub: [sandhya80](https://github.com/sandhya80)
+
+---
+
+Happy learning and enjoy practicing with your customized Flashcard Quizzes app!
