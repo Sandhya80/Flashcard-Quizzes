@@ -61,7 +61,7 @@ All color choices are designed for readability and comfort, day or night.
 ## Deployed App
 
 You can try the Flashcard Quizzes app live here:  
-[https://sandhya80.github.io/flashcard-quiz-app/](https://sandhya80.github.io/flashcard-quiz-app/)
+[https://sandhya80.github.io/Flashcard-Quizzes/](https://sandhya80.github.io/Flashcard-Quizzes/)
 
 ---
 
