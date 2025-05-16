@@ -197,14 +197,14 @@ body.dark-mode .card .back {
   padding: 0.5em 1.2em;
   border-radius: 0.7em;
   border: 1px solid #bbb;
-  background: #f7f7f7;
+  background: #b98d8d;
   cursor: pointer;
   font-size: 1em;
   transition: background 0.2s;
 }
 .controls button:hover, .controls button:focus {
-  background: #b19b9b;
-  outline: 2px solid #bd7c7c;
+  background: #c79f9f;
+  outline: 2px solid #855555;
 }
 
 /* Forms Section - stacked vertically */
@@ -239,8 +239,8 @@ body.dark-mode .card .back {
   margin-top: 0.5em;
   padding: 0.5em 1.2em;
   border-radius: 0.7em;
-  border: 1px solid #bbb;
-  background: #f7f7f7;
+  border: 1px solid #885353;
+  background: #b98d8d;
   cursor: pointer;
   font-size: 1em;
   transition: background 0.2s;
