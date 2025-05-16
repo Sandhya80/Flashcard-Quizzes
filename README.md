@@ -74,6 +74,7 @@ Flashcard Quizzes is built with accessibility and SEO best practices in mind:
   The HTML is structured to be crawlable and indexable by search engines, with proper use of headings, links, and metadata.
 
 **Accessibility and SEO Test Results for Mobile and Desktop:**  
+
 ![Accessibility and SEO for Mobile](imgs/accessibilitySeoScore_mb.PNG)  
 ![Accessibility and SEO for Desktop](imgs/accessibilitySeoScore_desk.PNG)
 
@@ -102,6 +103,7 @@ To ensure fast load times and a smooth user experience, Flashcard Quizzes follow
   Implementing on-page SEO best practices, including meta tags, title tags, and structured data markup.
 
 **Performance and Best Practices Test Results:**  
+
 ![Performance Example](imgs/performBestPracScore.PNG)
 
 ---
