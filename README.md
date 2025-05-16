@@ -1,12 +1,13 @@
 # Flashcard Quizzes
 
-A simple, interactive flashcard quiz app for learning JavaScript, HTML5, and CSS3 concepts. Users can test their knowledge, add/edit/delete flashcards, filter by category, track their score, set a countdown timer, and switch between Dark Mode and Light Mode for comfortable studying at any time. The app is fully responsive, uses modern color palettes for both light and dark modes, and works great on all devices.
+A modern, interactive flashcard app for learning JavaScript, HTML5, and CSS3. Features include multiple-choice quizzes, category filtering, a countdown timer, dark/light mode, and full mobile responsiveness with accessible color palettes.
 
 ---
 
 ## Table of Contents
 
 - [Key Features](#key-features)
+- [Color Palettes](#color-palettes)
 - [Demo](#demo)
 - [Deployed App](#deployed-app)
 - [File Structure](#file-structure)
@@ -14,7 +15,6 @@ A simple, interactive flashcard quiz app for learning JavaScript, HTML5, and CSS
 - [User Instructions](#user-instructions)
 - [Customization](#customization)
 - [JavaScript Methodologies Used](#javascript-methodologies-used)
-- [Color Palettes](#color-palettes)
 - [Toggle Feature (Dark Mode / Light Mode)](#toggle-feature-dark-mode--light-mode)
 - [Contributing](#contributing)
 - [License](#license)
@@ -69,11 +69,11 @@ You can try the Flashcard Quizzes app live here:
 
 ```plaintext
 flashcard-quizzes/
-├── index.html         # Main HTML file
-├── style.css          # App styling
-├── script.js          # App logic and interactivity
-├── favicon.ico        # App icon 
-└── README.md
+├── [index.html](http://_vscodecontentref_/0)         # Main HTML file
+├── [style.css](http://_vscodecontentref_/1)          # App styling
+├── [script.js](http://_vscodecontentref_/2)          # App logic and interactivity
+├── [favicon.ico](http://_vscodecontentref_/3)        # App icon 
+└── [README.md](http://_vscodecontentref_/4)
 ```
 
 ---
